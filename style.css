@@ -34,14 +34,16 @@
 }
 
 .item {
-    position: relative;
+    position: static;
     overflow: hidden;
-    padding: 3;
+    padding: 0;
     padding-left: 4;
     padding-right: 4;
+    margin-left: -5;
+    margin-bottom: 5;
+    margin-top: 5;
     border-left: 2px solid lime;
     border-right: 2px solid lime;
-    margin-left: -5;
     color: ffffff;
     font-family: 'Courier New', Courier, monospace;
 }

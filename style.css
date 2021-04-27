@@ -1,0 +1,53 @@
+#banner {
+    font-family: monospace;
+    color: lightslategray;
+    margin: 0;
+    text-align: center;
+    background-color: 00ff00;
+    font: bold;
+    /*text-decoration: underline;*/
+    border-style: solid;
+    border-width: 5;
+}
+
+#top {
+    position: relative;
+}
+
+#topmenu {
+    position: relative;
+    margin: 0;
+    background-color: lightslategray;
+    padding-bottom: 5;
+    /*width: 100;*/
+    margin-top: 0;
+}
+
+#content {
+    margin: 5;
+}
+
+.item {
+    position: sticky;
+    padding: 3;
+    /*border-right: darkgray;*/
+    border-width: 2;
+    border-style: solid;
+    border-color: 00ff00;
+    margin-left: -5;
+    color: ffffff;
+}
+
+body {
+    margin: 0;
+    background: lightgray;
+    color: white;
+}
+
+p {
+    margin: 5;
+}
+
+li {
+    display: inline;
+}

@@ -1,3 +1,9 @@
+
+/* This is the main stylesheet for the site
+     <==||>>>>>>>>>>>>>>>>>>>
+*/
+
+
 #banner {
     font-family: monospace;
     color: lightslategray;
@@ -28,14 +34,15 @@
 }
 
 .item {
-    position: sticky;
+    position: relative;
     padding: 3;
-    /*border-right: darkgray;*/
-    border-width: 2;
-    border-style: solid;
-    border-color: 00ff00;
+    padding-left: 4;
+    padding-right: 4;
+    border-left: 2px solid lime;
+    border-right: 2px solid lime;
     margin-left: -5;
     color: ffffff;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {

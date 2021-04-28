@@ -23,7 +23,7 @@
 
 #topmenu {
     position: relative;
-    margin: 0;
+    margin: 5;
     background-color: lightslategray;
     padding-bottom: 5;
     padding-top: 5;
@@ -33,6 +33,31 @@
 
 #content {
     margin: 5;
+}
+
+#sidebar {
+    float: left;
+    margin-right: 10;
+}
+
+#viewport {
+    position: sticky;
+    margin-left: 5;
+    padding-left: 5;
+}
+
+.newproject {
+    display: block;
+    color: slategray;
+    padding: 2;
+    border: 1px solid darkgray;
+    font-size: small;
+}
+
+.newproject:hover {
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
 }
 
 .item {
@@ -68,6 +93,7 @@ li {
 li a {
     text-decoration: none;
     color: white;
+    display: block inline;
 }
 
 li a:hover {

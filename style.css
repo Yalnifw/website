@@ -6,14 +6,15 @@
 
 #banner {
     font-family: monospace;
-    color: lightslategray;
+    color: white;
     margin: 0;
+    padding: 10;
     text-align: center;
-    background-color: 00ff00;
+    background-color: #aa00ff;
     font: bold;
     /*text-decoration: underline;*/
-    border-style: solid;
-    border-width: 5;
+    border: 10px solid #aa00ff;
+    margin-bottom: 3;
 }
 
 #top {
@@ -25,6 +26,7 @@
     margin: 0;
     background-color: lightslategray;
     padding-bottom: 5;
+    padding-top: 5;
     /*width: 100;*/
     margin-top: 0;
 }
@@ -42,8 +44,9 @@
     margin-left: -5;
     margin-bottom: 5;
     margin-top: 5;
-    border-left: 2px solid lime;
-    border-right: 2px solid lime;
+    border-left: 2px solid silver;
+    border-right: 2px solid silver;
+    /*border: 2px solid silver;*/
     color: ffffff;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -60,4 +63,13 @@ p {
 
 li {
     display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: lightgray;
 }

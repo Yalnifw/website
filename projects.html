@@ -12,23 +12,44 @@
     <div id="top">
     <h1 id="banner">-_ PROJECTS _-</h1>
         <ul id="topmenu">
+            <b>
             <li class="item"><a href="index.html">Home</a></li>
             <li class="item"><a  href="projects.html">Projects</a></li>
             <li class="item"><a href="articles.html">Articles</a></li>
             <li class="item"><a href="fun.html">Fun</a></li>
             <li class="item"><a href="about.html">About</a></li>
+            </b>
         </ul>
     </div>
     <div id="content">
         <div id="nav">
             <ul id="sidebar">
-                <li class="newproject" onclick="sample()">Sample Project</li>
-                <li class="newproject" onclick="sample()">Sample Project2</li>
+                <li class="newproject" id="projectstitle" onclick="sample()"><b>Project List</b></li>
+                <li class="newproject" onclick="setContent(sample1)">Sample Project2</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
+                <li class="newproject" onclick="sample()">Test Project</li>
                 <li class="newproject" onclick="sample()">Test Project</li>
             </ul>
         </div>
         <div id="viewport">
-            <p><br>Test Text</p>
+            <div id="default">
+                <img src="Assets/dogs.jpeg" alt="Sad But Default">
+                <h3>Click on a project!</h3>
+            </div>
+            <div id="sample1" class="projectcontent">
+                <img src="Assets/laughFace.png" alt="Sad it didn't work">
+                <h3>This is a sample project!</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem rem fugit,
+                     similique reprehenderit pariatur, voluptatum recusandae rerum odit voluptatem eligendi 
+                     modi. Accusantium beatae aliquid perspiciatis voluptatem nesciunt delectus debitis?</p>
+            </div>
         </div>
     </div>
 </body>

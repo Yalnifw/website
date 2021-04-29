@@ -1,0 +1,3 @@
+*Create a system to store and update the html for each project (JSON, classes, automation)
+*Create sizeable list of projects
+Start adding content to the rest of the site

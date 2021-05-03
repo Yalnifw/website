@@ -91,7 +91,7 @@
 }
 
 .projectcontent {
-    display: none;
+    display: block;
 }
 
 body {
